@@ -13,17 +13,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152d0a09-56db-49b1-9bbf-733fc0aea939" name="Default Changelist" comment="start">
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Models/Guest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Models/Room.cs" afterDir="false" />
+    <list default="true" id="152d0a09-56db-49b1-9bbf-733fc0aea939" name="Default Changelist" comment="adding classes to project">
+      <change afterPath="$PROJECT_DIR$/DiversHotel/Repository/GuestRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanPricesRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiversHotel/Repository/RoomPricesRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiversHotel/Data/ApplicationDbContext.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DiversHotel/DiversHotel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/DiversHotel.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +34,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/52A6E9AA-74AC-4C70-9FA9-63A6CCE87EDF/81/10daf653/RelationalEntityTypeBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DiversHotel/Models/Guest.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Models/Room.cs" />
-        <option value="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" />
-        <option value="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/appsettings.json" />
-        <option value="$PROJECT_DIR$/DiversHotel/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Startup.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/RepositoryViews/Repository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/CategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/ReservationRepository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/GuestRepository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/RoomPricesRepository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/MealPlanPricesRepository.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Repository/Data/ApplicationDbContext.cs" />
       </list>
     </option>
   </component>
@@ -57,6 +70,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DiversHotel">
     <configuration name="DiversHotel" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -98,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617793934716</updated>
-      <workItem from="1617793968431" duration="1545000" />
+      <workItem from="1617793968431" duration="5047000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1617794087261</created>
@@ -114,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617794117713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding classes to project">
+      <created>1617795626202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617795626202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,13 +164,34 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="adding classes to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding classes to project" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1865" height="279" key="GridCell.Tab.0.bottom" timestamp="1617795608244">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617795608244" />
+    <state width="1865" height="279" key="GridCell.Tab.0.center" timestamp="1617795608244">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617795608244" />
+    <state width="1865" height="279" key="GridCell.Tab.0.left" timestamp="1617795608244">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617795608244" />
+    <state width="1865" height="279" key="GridCell.Tab.0.right" timestamp="1617795608244">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617795608244" />
     <state x="616" y="176" key="RiderGenerateDialog" timestamp="1617795419871">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="176" key="RiderGenerateDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1617795419871" />
+    <state x="351" y="83" key="SettingsEditor" timestamp="1617829891473">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="351" y="83" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1617829891473" />
     <state x="573" y="60" key="Vcs.Push.Dialog.v2" timestamp="1617794289005">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -151,5 +200,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="858" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1617794056928" />
+    <state x="532" y="239" key="run.anything.popup" timestamp="1617832386365">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="532" y="239" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1617832386365" />
   </component>
 </project>

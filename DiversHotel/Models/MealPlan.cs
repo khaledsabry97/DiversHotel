@@ -10,14 +10,14 @@ namespace DiversHotel.Models
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public String Id { get; set; }
 
-    public MealPlanType MealPlanType { get; set; }
+    public String MealPlanType { get; set; }
     
   }
 
   
   public class MealPlanPrice
   {
-    public MealPlanType MealPlanType { get; set; }
+    public MealPlan MealPlanType { get; set; }
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
     public int Price { get; set; }

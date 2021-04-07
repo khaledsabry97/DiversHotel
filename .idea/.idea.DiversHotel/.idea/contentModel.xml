@@ -11,10 +11,24 @@
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
         </e>
-        <e p="Data" t="Include">
-          <e p="ApplicationDbContext.cs" t="Include" />
-        </e>
         <e p="DiversHotel.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20210407114203_Initial.cs" t="Include" />
+          <e p="20210407114203_Initial.Designer.cs" t="Include" />
+          <e p="20210407211056_addroom.cs" t="Include" />
+          <e p="20210407211056_addroom.Designer.cs" t="Include" />
+          <e p="20210407211536_roomPrice.cs" t="Include" />
+          <e p="20210407211536_roomPrice.Designer.cs" t="Include" />
+          <e p="20210407212227_addguest.cs" t="Include" />
+          <e p="20210407212227_addguest.Designer.cs" t="Include" />
+          <e p="20210407213022_addMealPlans.cs" t="Include" />
+          <e p="20210407213022_addMealPlans.Designer.cs" t="Include" />
+          <e p="20210407213357_addMealPlanPrices.cs" t="Include" />
+          <e p="20210407213357_addMealPlanPrices.Designer.cs" t="Include" />
+          <e p="20210407215552_addReservations.cs" t="Include" />
+          <e p="20210407215552_addReservations.Designer.cs" t="Include" />
+          <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Guest.cs" t="Include" />
@@ -33,6 +47,21 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="Data" t="Include">
+            <e p="ApplicationDbContext.cs" t="Include" />
+          </e>
+          <e p="GuestRepository.cs" t="Include" />
+          <e p="MealPlanPricesRepository.cs" t="Include" />
+          <e p="MealPlanRepository.cs" t="Include" />
+          <e p="RepositoryViews" t="Include">
+            <e p="IRepository.cs" t="Include" />
+            <e p="Repository.cs" t="Include" />
+          </e>
+          <e p="ReservationRepository.cs" t="Include" />
+          <e p="RoomPricesRepository.cs" t="Include" />
+          <e p="RoomRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
