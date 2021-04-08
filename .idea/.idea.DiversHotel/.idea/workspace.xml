@@ -14,24 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="152d0a09-56db-49b1-9bbf-733fc0aea939" name="Default Changelist" comment="add migrations">
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Models/DbInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiversHotel/ViewModels/BookViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Views/Home/Book.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Views/Home/Reservation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiversHotel/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/DiversHotel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/DiversHotel.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/Room.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanPricesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanPricesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/ReservationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/ReservationRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/RoomPricesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/RoomPricesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiversHotel/ViewModels/BookViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/ViewModels/BookViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiversHotel/Views/Home/Book.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Views/Home/Book.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiversHotel/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://K:/Projects/C#Projects/DiversHotel/DiversHotel/Repository/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/52A6E9AA-74AC-4C70-9FA9-63A6CCE87EDF/81/10daf653/RelationalEntityTypeBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/5f/0841725a/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/C/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -62,18 +50,19 @@
         <option value="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/RoomPricesRepository.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/MealPlanPricesRepository.cs" />
-        <option value="$PROJECT_DIR$/DiversHotel/Startup.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Models/MealPlan.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Models/Room.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/ReservationRepository.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" />
-        <option value="$PROJECT_DIR$/DiversHotel/Views/Home/Book.cshtml" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Models/DbInitializer.cs" />
-        <option value="$PROJECT_DIR$/DiversHotel/ViewModels/BookViewModel.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Views/Home/Reservation.cshtml" />
         <option value="$PROJECT_DIR$/DiversHotel/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/wwwroot/css/site.css" />
+        <option value="$PROJECT_DIR$/DiversHotel/Startup.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/ViewModels/BookViewModel.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Views/Home/Book.cshtml" />
       </list>
     </option>
   </component>
@@ -97,6 +86,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DiversHotel">
@@ -141,6 +131,7 @@
       <updated>1617793934716</updated>
       <workItem from="1617793968431" duration="6453000" />
       <workItem from="1617906402863" duration="9162000" />
+      <workItem from="1617918860912" duration="4024000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1617794087261</created>
@@ -177,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617837062499</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding repository and initailaze database">
+      <created>1617919075951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617919075951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,89 +201,90 @@
     <MESSAGE value="adding classes to project" />
     <MESSAGE value="add repositories" />
     <MESSAGE value="add migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add migrations" />
+    <MESSAGE value="adding repository and initailaze database" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding repository and initailaze database" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1865" height="279" key="GridCell.Tab.0.bottom" timestamp="1617915070953">
+    <state width="1865" height="279" key="GridCell.Tab.0.bottom" timestamp="1617922267716">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617915070953" />
-    <state width="1865" height="279" key="GridCell.Tab.0.center" timestamp="1617915070952">
+    <state width="1865" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617922267716" />
+    <state width="1865" height="279" key="GridCell.Tab.0.center" timestamp="1617922267715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617915070952" />
-    <state width="1865" height="279" key="GridCell.Tab.0.left" timestamp="1617915070952">
+    <state width="1865" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617922267715" />
+    <state width="1865" height="279" key="GridCell.Tab.0.left" timestamp="1617922267715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617915070952" />
-    <state width="1865" height="279" key="GridCell.Tab.0.right" timestamp="1617915070952">
+    <state width="1865" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617922267715" />
+    <state width="1865" height="279" key="GridCell.Tab.0.right" timestamp="1617922267715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617915070952" />
-    <state width="1865" height="379" key="GridCell.Tab.1.bottom" timestamp="1617909556071">
+    <state width="1865" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617922267715" />
+    <state width="1865" height="379" key="GridCell.Tab.1.bottom" timestamp="1617920332099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556071" />
-    <state width="1865" height="379" key="GridCell.Tab.1.center" timestamp="1617909556071">
+    <state width="1865" height="379" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332099" />
+    <state width="1865" height="379" key="GridCell.Tab.1.center" timestamp="1617920332099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556071" />
-    <state width="1865" height="379" key="GridCell.Tab.1.left" timestamp="1617909556070">
+    <state width="1865" height="379" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332099" />
+    <state width="1865" height="379" key="GridCell.Tab.1.left" timestamp="1617920332099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556070" />
-    <state width="1865" height="379" key="GridCell.Tab.1.right" timestamp="1617909556071">
+    <state width="1865" height="379" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332099" />
+    <state width="1865" height="379" key="GridCell.Tab.1.right" timestamp="1617920332099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556071" />
-    <state width="1865" height="379" key="GridCell.Tab.2.bottom" timestamp="1617909556071">
+    <state width="1865" height="379" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332099" />
+    <state width="1865" height="379" key="GridCell.Tab.2.bottom" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556071" />
-    <state width="1865" height="379" key="GridCell.Tab.2.center" timestamp="1617909556071">
+    <state width="1865" height="379" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.2.center" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556071" />
-    <state width="1865" height="379" key="GridCell.Tab.2.left" timestamp="1617909556071">
+    <state width="1865" height="379" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.2.left" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556071" />
-    <state width="1865" height="379" key="GridCell.Tab.2.right" timestamp="1617909556071">
+    <state width="1865" height="379" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.2.right" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556071" />
-    <state width="1865" height="379" key="GridCell.Tab.3.bottom" timestamp="1617909556072">
+    <state width="1865" height="379" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.3.bottom" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556072" />
-    <state width="1865" height="379" key="GridCell.Tab.3.center" timestamp="1617909556072">
+    <state width="1865" height="379" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.3.center" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556072" />
-    <state width="1865" height="379" key="GridCell.Tab.3.left" timestamp="1617909556072">
+    <state width="1865" height="379" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.3.left" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556072" />
-    <state width="1865" height="379" key="GridCell.Tab.3.right" timestamp="1617909556072">
+    <state width="1865" height="379" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.3.right" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556072" />
-    <state width="1865" height="379" key="GridCell.Tab.4.bottom" timestamp="1617909556073">
+    <state width="1865" height="379" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.4.bottom" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556073" />
-    <state width="1865" height="379" key="GridCell.Tab.4.center" timestamp="1617909556073">
+    <state width="1865" height="379" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.4.center" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556073" />
-    <state width="1865" height="379" key="GridCell.Tab.4.left" timestamp="1617909556073">
+    <state width="1865" height="379" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.4.left" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556073" />
-    <state width="1865" height="379" key="GridCell.Tab.4.right" timestamp="1617909556073">
+    <state width="1865" height="379" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
+    <state width="1865" height="379" key="GridCell.Tab.4.right" timestamp="1617920332100">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="379" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617909556073" />
+    <state width="1865" height="379" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1617920332100" />
     <state x="616" y="176" key="RiderGenerateDialog" timestamp="1617795419871">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -339,6 +338,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DiversHotel/Controllers/HomeController.cs</url>
+          <line>64</line>
+          <properties documentPath="K:\Projects\C#Projects\DiversHotel\DiversHotel\Controllers\HomeController.cs" initialLine="64">
+            <startOffsets>
+              <option value="1883" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1910" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DiversHotel/Controllers/HomeController.cs</url>
+          <line>71</line>
+          <properties documentPath="K:\Projects\C#Projects\DiversHotel\DiversHotel\Controllers\HomeController.cs" initialLine="71">
+            <startOffsets>
+              <option value="2005" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2029" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

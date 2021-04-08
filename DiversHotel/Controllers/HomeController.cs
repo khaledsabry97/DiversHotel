@@ -47,8 +47,12 @@ namespace DiversHotel.Controllers
     public IActionResult Book()
     {
       List<MealPlan> mealPlans = _mealPlanRepository.GetAllMealPlans();
-      List<String> roomTypes = Enum.GetValues(typeof(RoomType)).Cast<String>().ToList();
-
+      List<RoomType> Types = Enum.GetValues(typeof(RoomType)).Cast<RoomType>().ToList();
+      List<String> roomTypes = new List<string>();
+      foreach (var type in Types)
+      {
+        roomTypes.Add(Enum.GetName(type.GetType(), type));
+      }
       BookViewModel bookViewModel = new BookViewModel();
       foreach (var mealPlan in mealPlans)
       {
@@ -58,7 +62,7 @@ namespace DiversHotel.Controllers
       bookViewModel.RoomType = roomTypes;
       bookViewModel.CheckIn = DateTime.Today;
       bookViewModel.CheckOut = DateTime.Today.Add(TimeSpan.FromDays(7));
-      return View();
+      return View(bookViewModel);
     }
 
 
