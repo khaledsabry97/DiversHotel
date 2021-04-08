@@ -14,10 +14,14 @@ namespace DiversHotel.Models
 
     
   }
+  
 
 
   public class RoomPrice
   {
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
     public RoomType RoomType { get; set; }
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
@@ -31,4 +35,5 @@ namespace DiversHotel.Models
     GardenView,
     StandardView
   }
+  
 }

@@ -14,7 +14,13 @@ namespace Data.Repositories
     {
     }
 
+    public IEnumerable<MealPlanPrice> GetAllMealPlansPrices()
+    {
+      IEnumerable<MealPlanPrice> mealPlanPrices = TableNoTracking.ToArray();
 
+
+      return mealPlanPrices;
+    }
     
   }
 }

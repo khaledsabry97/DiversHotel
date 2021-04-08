@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Data.Repositories;
 using DiversHotel.Data;
+using DiversHotel.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,12 +31,17 @@ namespace DiversHotel
       services.AddDbContext<ApplicationDbContext>(options =>
         options.UseSqlServer(
           Configuration.GetConnectionString("Db1")));
-      
+
+
+      services.AddTransient<RoomRepository>();
+      services.AddTransient<RoomPricesRepository>();
+      services.AddTransient<MealPlanRepository>();
+      services.AddTransient<MealPlanPricesRepository>();
       services.AddControllersWithViews();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env,IServiceProvider serviceProvider)
     {
       if (env.IsDevelopment())
       {
@@ -60,6 +67,8 @@ namespace DiversHotel
           name: "default",
           pattern: "{controller=Home}/{action=Index}/{id?}");
       });
+      
+      DbInitializer.Seed(serviceProvider);
     }
   }
 }

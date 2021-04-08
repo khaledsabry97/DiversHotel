@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
@@ -23,5 +24,30 @@ namespace Data.Repositories
 
       return reservations;
     }
+
+
+    /// <summary>
+    /// get all booked rooms in range of date
+    /// </summary>
+    /// <param name="Start_Date"></param>
+    /// <param name="End_Date"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns>Ids of rooms booked in that range</returns>
+    public async Task<List<string>> GetAllBookedRooms(DateTime Start_Date, DateTime End_Date,RoomType roomType,CancellationToken cancellationToken)
+    {
+      List<Reservation> reservations = await TableNoTracking
+        .Where(e => e.EndDate > Start_Date && e.StartDate < End_Date && e.Room.RoomType == roomType).ToListAsync(cancellationToken);
+
+      List<String> roomIds = new List<string>();
+      foreach (var reservation in reservations)
+      {
+        roomIds.Add(reservation.Room.Id);
+      }
+
+      return roomIds;
+    }
+    
+    
+    
   }
 }

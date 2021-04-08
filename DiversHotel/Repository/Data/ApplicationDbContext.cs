@@ -13,11 +13,11 @@ namespace DiversHotel.Data
     {
       base.OnModelCreating(modelBuilder);
 
-      modelBuilder.Entity<RoomPrice>(builder => builder.ToTable("RoomPrices").HasNoKey());
+      modelBuilder.Entity<RoomPrice>(builder => builder.ToTable("RoomPrices"));
       modelBuilder.Entity<Room>(builder => builder.ToTable("Rooms"));
       modelBuilder.Entity<Guest>(builder => builder.ToTable("Guests"));
       modelBuilder.Entity<MealPlan>(builder => builder.ToTable("MealPlans"));
-      modelBuilder.Entity<MealPlanPrice>(builder => builder.ToTable("MealPlanPrices").HasNoKey());
+      modelBuilder.Entity<MealPlanPrice>(builder => builder.ToTable("MealPlanPrices"));
       modelBuilder.Entity<Reservation>(builder => builder.ToTable("Reservations"));
       
 

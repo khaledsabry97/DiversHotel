@@ -39,9 +39,10 @@ namespace DiversHotel.Migrations
 
             modelBuilder.Entity("DiversHotel.Models.MealPlan", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("MealPlanType")
                         .HasColumnType("nvarchar(max)");
@@ -53,11 +54,16 @@ namespace DiversHotel.Migrations
 
             modelBuilder.Entity("DiversHotel.Models.MealPlanPrice", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("MealPlanTypeId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("MealPlanId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Price")
                         .HasColumnType("int");
@@ -65,7 +71,9 @@ namespace DiversHotel.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.HasIndex("MealPlanTypeId");
+                    b.HasKey("Id");
+
+                    b.HasIndex("MealPlanId");
 
                     b.ToTable("MealPlanPrices");
                 });
@@ -82,8 +90,8 @@ namespace DiversHotel.Migrations
                     b.Property<string>("GuestId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("MealPlanId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int?>("MealPlanId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Price")
                         .HasColumnType("int");
@@ -121,6 +129,11 @@ namespace DiversHotel.Migrations
 
             modelBuilder.Entity("DiversHotel.Models.RoomPrice", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
@@ -133,16 +146,20 @@ namespace DiversHotel.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
+                    b.HasKey("Id");
+
                     b.ToTable("RoomPrices");
                 });
 
             modelBuilder.Entity("DiversHotel.Models.MealPlanPrice", b =>
                 {
-                    b.HasOne("DiversHotel.Models.MealPlan", "MealPlanType")
+                    b.HasOne("DiversHotel.Models.MealPlan", "MealPlan")
                         .WithMany()
-                        .HasForeignKey("MealPlanTypeId");
+                        .HasForeignKey("MealPlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("MealPlanType");
+                    b.Navigation("MealPlan");
                 });
 
             modelBuilder.Entity("DiversHotel.Models.Reservation", b =>

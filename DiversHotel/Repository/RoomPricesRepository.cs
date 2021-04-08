@@ -14,6 +14,14 @@ namespace Data.Repositories
     {
     }
 
+    
+    public IEnumerable<RoomPrice> GetAllRoomPrices()
+    {
+      IEnumerable<RoomPrice> roomPrices = TableNoTracking.ToArray();
+
+
+      return roomPrices;
+    }
 
     
   }

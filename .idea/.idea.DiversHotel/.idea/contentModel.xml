@@ -27,9 +27,20 @@
           <e p="20210407213357_addMealPlanPrices.Designer.cs" t="Include" />
           <e p="20210407215552_addReservations.cs" t="Include" />
           <e p="20210407215552_addReservations.Designer.cs" t="Include" />
+          <e p="20210408193458_updateMealPlanId1.cs" t="Include" />
+          <e p="20210408193458_updateMealPlanId1.Designer.cs" t="Include" />
+          <e p="20210408193614_updateMealPlanId2.cs" t="Include" />
+          <e p="20210408193614_updateMealPlanId2.Designer.cs" t="Include" />
+          <e p="20210408194003_updateMealPlanId3.cs" t="Include" />
+          <e p="20210408194003_updateMealPlanId3.Designer.cs" t="Include" />
+          <e p="20210408194745_updateMealPlanId4.cs" t="Include" />
+          <e p="20210408194745_updateMealPlanId4.Designer.cs" t="Include" />
+          <e p="20210408194916_updateKeyless.cs" t="Include" />
+          <e p="20210408194916_updateKeyless.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="DbInitializer.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Guest.cs" t="Include" />
           <e p="MealPlan.cs" t="Include" />
@@ -64,12 +75,17 @@
           <e p="RoomRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="BookViewModel.cs" t="Include" />
+        </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
+            <e p="Book.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
+            <e p="Reservation.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />

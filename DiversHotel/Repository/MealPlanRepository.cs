@@ -15,6 +15,12 @@ namespace Data.Repositories
     }
 
 
-    
+    public List<MealPlan> GetAllMealPlans()
+    {
+      List<MealPlan> mealPlans = TableNoTracking.ToList();
+
+
+      return mealPlans;
+    }
   }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace DiversHotel.Models
 {
@@ -8,16 +9,20 @@ namespace DiversHotel.Models
   {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public String Id { get; set; }
+    public int Id { get; set; }
 
     public String MealPlanType { get; set; }
     
   }
 
-  
   public class MealPlanPrice
   {
-    public MealPlan MealPlanType { get; set; }
+
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int Id { get; set; }
+    public int MealPlanId { get; set; }
+    public MealPlan MealPlan { get; set; }
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
     public int Price { get; set; }
