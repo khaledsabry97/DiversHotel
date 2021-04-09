@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
@@ -20,6 +21,15 @@ namespace Data.Repositories
 
 
       return mealPlanPrices;
+    }
+
+
+    public MealPlanPrice GetMealPlanPrice(int MealPlanId,DateTime dateTime)
+    {
+      MealPlanPrice mealPlanPrice = TableNoTracking.First(e =>
+        e.StartDate <= dateTime && e.EndDate >= dateTime && e.MealPlanId == MealPlanId);
+
+      return mealPlanPrice;
     }
     
   }

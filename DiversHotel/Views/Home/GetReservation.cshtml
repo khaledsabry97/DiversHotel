@@ -1,0 +1,108 @@
+﻿@model DiversHotel.ViewModels.ReservationViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+
+
+<h2 class="text-center">Final Reservation</h2>
+<form method="post">
+
+
+    <table class="table table-bordered table-dark">
+        <thead>
+        <tr style="width: fit-content">
+            <th hidden scope="col">#</th>
+            <th hidden scope="col">First</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Name</th>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <th scope="row">Email</th>
+            <td>@Model.Email</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Check In Date</th>
+            <td>@Model.CheckIn</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">Check Out Date</th>
+            <td>@Model.CheckOut</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">No Of Adults</th>
+            <td>@Model.NoOfAdults</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">No Of Children</th>
+            <td>@Model.NoOfChildren</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">Room View</th>
+            <td>@Model.RoomType</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Meal Type</th>
+            <td>@Model.MealType</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">No Of Rooms</th>
+            <td>@Model.NoOfRooms</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">Meals Cost</th>
+            <td>@Model.MealCost</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">Rooms Cost</th>
+            <td>@Model.RoomCost</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">Total Cost</th>
+            <td>@Model.TotalCost</td>
+        </tr>
+
+
+        </tbody>
+    </table>
+
+
+    <div class="row">
+        <div class="col-6 form-group text-center">
+            <button type="submit" class="btn btn-primary" asp-action="Reservation">Book</button>
+
+        </div>
+
+        <div class="col-6">
+            <button formmethod="get" type="submit" class="btn btn-primary"asp-action="Book">New Reservation</button>
+
+        </div>
+    </div>
+
+
+</form>

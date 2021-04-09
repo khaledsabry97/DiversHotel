@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
@@ -21,6 +22,12 @@ namespace Data.Repositories
 
 
       return mealPlans;
+    }
+
+    public MealPlan GetMealPlanByName(String Name)
+    {
+      MealPlan mealPlan = TableNoTracking.First(e => e.MealPlanType == Name);
+      return mealPlan;
     }
   }
 }

@@ -12,6 +12,9 @@
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="DiversHotel.csproj" t="IncludeRecursive" />
+        <e p="Functionality" t="Include">
+          <e p="Booking.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20210407114203_Initial.cs" t="Include" />
           <e p="20210407114203_Initial.Designer.cs" t="Include" />
@@ -77,6 +80,7 @@
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
           <e p="BookViewModel.cs" t="Include" />
+          <e p="ReservationViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />

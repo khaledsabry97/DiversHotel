@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
@@ -23,6 +24,14 @@ namespace Data.Repositories
       return roomPrices;
     }
 
+    
+    public RoomPrice GetRoomPrice(RoomType roomType,DateTime dateTime)
+    {
+      RoomPrice roomPrice = TableNoTracking.First(e =>
+        e.StartDate <= dateTime && e.EndDate >= dateTime && e.RoomType == roomType);
+
+      return roomPrice;
+    }
     
   }
 }
