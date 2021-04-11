@@ -17,7 +17,7 @@ namespace Data.Repositories
 
     public async Task<IEnumerable<Guest>> GetAll(CancellationToken cancellationToken, int range = 20)
     {
-      List<Guest> guests = await TableNoTracking
+      List<Guest> guests = await Table
         .Take(range)
         .ToListAsync(cancellationToken);
 

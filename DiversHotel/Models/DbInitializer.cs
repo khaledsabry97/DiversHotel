@@ -129,6 +129,21 @@ namespace DiversHotel.Models
           StartDate = new DateTime(2021, 4, 1),
           EndDate = new DateTime(2021, 4, 30),
           Price = 100
+        },
+        new RoomPrice()
+        {
+          RoomType = RoomType.PoolView,
+          StartDate = new DateTime(2021, 4, 1),
+          EndDate = new DateTime(2021, 4, 15),
+          Price = 100
+        }
+        ,
+        new RoomPrice()
+        {
+          RoomType = RoomType.PoolView,
+          StartDate = new DateTime(2021, 4, 16),
+          EndDate = new DateTime(2021, 4, 30),
+          Price = 150
         }
 
       };

@@ -37,6 +37,9 @@ namespace DiversHotel
       services.AddTransient<RoomPricesRepository>();
       services.AddTransient<MealPlanRepository>();
       services.AddTransient<MealPlanPricesRepository>();
+      services.AddTransient<ReservationRepository>();
+      services.AddTransient<GuestRepository>();
+
       services.AddControllersWithViews();
     }
 
@@ -65,7 +68,7 @@ namespace DiversHotel
       {
         endpoints.MapControllerRoute(
           name: "default",
-          pattern: "{controller=Home}/{action=Index}/{id?}");
+          pattern: "{controller=Book}/{action=Book}/{id?}");
       });
       
       DbInitializer.Seed(serviceProvider);

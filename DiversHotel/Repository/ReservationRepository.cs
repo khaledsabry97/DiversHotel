@@ -35,13 +35,17 @@ namespace Data.Repositories
     /// <returns>Ids of rooms booked in that range</returns>
     public async Task<List<string>> GetAllBookedRooms(DateTime Start_Date, DateTime End_Date,RoomType roomType,CancellationToken cancellationToken)
     {
-      List<Reservation> reservations = await TableNoTracking
-        .Where(e => e.EndDate > Start_Date && e.StartDate < End_Date && e.Room.RoomType == roomType).ToListAsync(cancellationToken);
+      List<Reservation> reservations = await Table.Include(e=>e.Rooms)
+        .Where(e => e.EndDate > Start_Date && e.StartDate < End_Date && e.RoomType == roomType).ToListAsync(cancellationToken);
 
       List<String> roomIds = new List<string>();
       foreach (var reservation in reservations)
       {
-        roomIds.Add(reservation.Room.Id);
+        foreach (var room in reservation.Rooms)
+        {
+          roomIds.Add(room.Id);
+
+        }
       }
 
       return roomIds;

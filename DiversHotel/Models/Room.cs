@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -11,6 +13,8 @@ namespace DiversHotel.Models
     public String Id { get; set; }
 
     public RoomType RoomType { get; set; }
+
+    public ICollection<Reservation> Reservations { get; set; }
 
     
   }

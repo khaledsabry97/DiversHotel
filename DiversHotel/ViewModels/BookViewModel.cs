@@ -23,7 +23,7 @@ namespace DiversHotel.ViewModels
 
     [Display(Name = "No. Of Children")]
     [Required]
-    [Range(1,100)]
+    [Range(0,100)]
     public int NoOfChildren { get; set; }
 
     [Display(Name = "Room Type")]

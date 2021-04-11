@@ -17,5 +17,7 @@ namespace DiversHotel.Models
 
     [EmailAddress]
     public String Email { get; set; }
+
+    public String Country { get; set; }
   }
 }

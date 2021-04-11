@@ -32,7 +32,7 @@ namespace Data.Repositories
 /// <returns></returns>
     public async Task<List<Room>> GetFreeRooms(List<String> bookedRoomsIds,RoomType roomType,CancellationToken cancellationToken)
     {
-      List<Room> rooms = await TableNoTracking.Where(e => e.RoomType == roomType).ToListAsync(cancellationToken);
+      List<Room> rooms = await Table.Where(e => e.RoomType == roomType).ToListAsync(cancellationToken);
       List<Room> freeRooms = new List<Room>();
       foreach (var room in rooms)
       {

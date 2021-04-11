@@ -9,6 +9,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="BookController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="DiversHotel.csproj" t="IncludeRecursive" />
@@ -40,6 +41,8 @@
           <e p="20210408194745_updateMealPlanId4.Designer.cs" t="Include" />
           <e p="20210408194916_updateKeyless.cs" t="Include" />
           <e p="20210408194916_updateKeyless.Designer.cs" t="Include" />
+          <e p="20210410215946_updateReservationmodel.cs" t="Include" />
+          <e p="20210410215946_updateReservationmodel.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -85,11 +88,14 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
-          <e p="Home" t="Include">
+          <e p="Book" t="Include">
             <e p="Book.cshtml" t="Include" />
+            <e p="GetReservation.cshtml" t="Include" />
+            <e p="Reservation.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
-            <e p="Reservation.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />

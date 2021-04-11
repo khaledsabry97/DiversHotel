@@ -27,7 +27,7 @@ namespace Data.Repositories
     
     public RoomPrice GetRoomPrice(RoomType roomType,DateTime dateTime)
     {
-      RoomPrice roomPrice = TableNoTracking.First(e =>
+      RoomPrice roomPrice = TableNoTracking.FirstOrDefault(e =>
         e.StartDate <= dateTime && e.EndDate >= dateTime && e.RoomType == roomType);
 
       return roomPrice;

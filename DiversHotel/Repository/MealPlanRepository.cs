@@ -26,7 +26,7 @@ namespace Data.Repositories
 
     public MealPlan GetMealPlanByName(String Name)
     {
-      MealPlan mealPlan = TableNoTracking.First(e => e.MealPlanType == Name);
+      MealPlan mealPlan = Table.First(e => e.MealPlanType == Name);
       return mealPlan;
     }
   }

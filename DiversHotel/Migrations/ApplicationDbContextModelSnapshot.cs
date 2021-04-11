@@ -25,6 +25,9 @@ namespace DiversHotel.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -96,8 +99,8 @@ namespace DiversHotel.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
-                    b.Property<string>("RoomId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("RoomType")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
@@ -107,8 +110,6 @@ namespace DiversHotel.Migrations
                     b.HasIndex("GuestId");
 
                     b.HasIndex("MealPlanId");
-
-                    b.HasIndex("RoomId");
 
                     b.ToTable("Reservations");
                 });
@@ -151,6 +152,21 @@ namespace DiversHotel.Migrations
                     b.ToTable("RoomPrices");
                 });
 
+            modelBuilder.Entity("ReservationRoom", b =>
+                {
+                    b.Property<string>("ReservationsId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoomsId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ReservationsId", "RoomsId");
+
+                    b.HasIndex("RoomsId");
+
+                    b.ToTable("ReservationRoom");
+                });
+
             modelBuilder.Entity("DiversHotel.Models.MealPlanPrice", b =>
                 {
                     b.HasOne("DiversHotel.Models.MealPlan", "MealPlan")
@@ -172,15 +188,24 @@ namespace DiversHotel.Migrations
                         .WithMany()
                         .HasForeignKey("MealPlanId");
 
-                    b.HasOne("DiversHotel.Models.Room", "Room")
-                        .WithMany()
-                        .HasForeignKey("RoomId");
-
                     b.Navigation("Guest");
 
                     b.Navigation("MealPlan");
+                });
 
-                    b.Navigation("Room");
+            modelBuilder.Entity("ReservationRoom", b =>
+                {
+                    b.HasOne("DiversHotel.Models.Reservation", null)
+                        .WithMany()
+                        .HasForeignKey("ReservationsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DiversHotel.Models.Room", null)
+                        .WithMany()
+                        .HasForeignKey("RoomsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
