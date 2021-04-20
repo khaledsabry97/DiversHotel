@@ -14,28 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="152d0a09-56db-49b1-9bbf-733fc0aea939" name="Default Changelist" comment="add migrations">
-      <change afterPath="$PROJECT_DIR$/DiversHotel/Controllers/BookController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Functionality/Booking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Functionality/Booking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/DbInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/Guest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/Guest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Models/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Models/Room.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/GuestRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/GuestRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/ReservationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/ReservationRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/RoomPricesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/RoomPricesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiversHotel/Controllers/BookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Controllers/BookController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiversHotel/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/ViewModels/BookViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/ViewModels/BookViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/ViewModels/ReservationViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/ViewModels/ReservationViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Views/Home/Book.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Views/Book/Book.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Views/Home/GetReservation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Views/Book/GetReservation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Views/Home/Reservation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Views/Book/Reservation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +55,18 @@
         <option value="$PROJECT_DIR$/DiversHotel/Repository/GuestRepository - Copy.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Models/Guest.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Models/Room.cs" />
-        <option value="$PROJECT_DIR$/DiversHotel/Startup.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/RoomRepository.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Functionality/Booking.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/GuestRepository.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/MealPlanRepository.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Models/Reservation.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/ViewModels/ReservationViewModel.cs" />
-        <option value="$PROJECT_DIR$/DiversHotel/Controllers/BookController.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Repository/ReservationRepository.cs" />
         <option value="$PROJECT_DIR$/DiversHotel/Views/Book/GetReservation.cshtml" />
         <option value="$PROJECT_DIR$/DiversHotel/Views/Book/Reservation.cshtml" />
         <option value="$PROJECT_DIR$/DiversHotel/appsettings.json" />
+        <option value="$PROJECT_DIR$/DiversHotel/Startup.cs" />
+        <option value="$PROJECT_DIR$/DiversHotel/Controllers/BookController.cs" />
       </list>
     </option>
   </component>
@@ -157,7 +138,10 @@
       <workItem from="1617918860912" duration="4690000" />
       <workItem from="1617999001692" duration="13351000" />
       <workItem from="1618095725888" duration="3160000" />
-      <workItem from="1618099159189" duration="284000" />
+      <workItem from="1618099159189" duration="528000" />
+      <workItem from="1618123817820" duration="715000" />
+      <workItem from="1618388985594" duration="233000" />
+      <workItem from="1618389638942" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1617794087261</created>
@@ -222,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618003656753</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding reservation functionality">
+      <created>1618099654043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618099654043</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding reservation migrations">
+      <created>1618099665858</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618099665858</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,25 +249,27 @@
     <MESSAGE value="add book view" />
     <MESSAGE value="add migrations" />
     <MESSAGE value="adding functionality for booking" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding functionality for booking" />
+    <MESSAGE value="adding reservation functionality" />
+    <MESSAGE value="adding reservation migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding reservation migrations" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1865" height="279" key="GridCell.Tab.0.bottom" timestamp="1618098637652">
+    <state width="1865" height="279" key="GridCell.Tab.0.bottom" timestamp="1618389219498">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1618098637652" />
-    <state width="1865" height="279" key="GridCell.Tab.0.center" timestamp="1618098637652">
+    <state width="1865" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1618389219498" />
+    <state width="1865" height="279" key="GridCell.Tab.0.center" timestamp="1618389219497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1618098637652" />
-    <state width="1865" height="279" key="GridCell.Tab.0.left" timestamp="1618098637652">
+    <state width="1865" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1618389219497" />
+    <state width="1865" height="279" key="GridCell.Tab.0.left" timestamp="1618389219497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1618098637652" />
-    <state width="1865" height="279" key="GridCell.Tab.0.right" timestamp="1618098637652">
+    <state width="1865" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1618389219497" />
+    <state width="1865" height="279" key="GridCell.Tab.0.right" timestamp="1618389219497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1618098637652" />
+    <state width="1865" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1618389219497" />
     <state width="1865" height="379" key="GridCell.Tab.1.bottom" timestamp="1618098588938">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -342,10 +342,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="351" y="83" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1618093723932" />
-    <state x="573" y="60" key="Vcs.Push.Dialog.v2" timestamp="1617923368567">
+    <state x="573" y="60" key="Vcs.Push.Dialog.v2" timestamp="1618099672159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="573" y="60" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1617923368567" />
+    <state x="573" y="60" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1618099672159" />
     <state x="858" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617794056928">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

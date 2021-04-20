@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Data.Repositories;
 using DiversHotel.Data;
+using DiversHotel.Functionality;
 using DiversHotel.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -39,6 +40,7 @@ namespace DiversHotel
       services.AddTransient<MealPlanPricesRepository>();
       services.AddTransient<ReservationRepository>();
       services.AddTransient<GuestRepository>();
+      services.AddTransient<Booking>();
 
       services.AddControllersWithViews();
     }

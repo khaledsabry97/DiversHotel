@@ -15,28 +15,13 @@ namespace DiversHotel.Controllers
   public class BookController : Controller
   {
     private readonly MealPlanRepository _mealPlanRepository;
-    private readonly RoomRepository _roomRepository;
-    private readonly ReservationRepository _reservationRepository;
-    private readonly MealPlanPricesRepository _mealPlanPricesRepository;
-    private readonly RoomPricesRepository _roomPricesRepository;
-    private readonly GuestRepository _guestRepository;
-    private readonly Booking booking;
+    private readonly Booking _booking;
 
     public BookController(MealPlanRepository mealPlanRepository,
-      RoomRepository roomRepository,
-      ReservationRepository reservationRepository,
-      MealPlanPricesRepository mealPlanPricesRepository,
-      RoomPricesRepository roomPricesRepository,
-      GuestRepository guestRepository)
+      Booking booking)
     {
       _mealPlanRepository = mealPlanRepository;
-      _roomRepository = roomRepository;
-      _reservationRepository = reservationRepository;
-      _mealPlanPricesRepository = mealPlanPricesRepository;
-      _roomPricesRepository = roomPricesRepository;
-      _guestRepository = guestRepository;
-      booking = new Booking(_reservationRepository, _roomRepository, _roomPricesRepository, _mealPlanRepository,
-        _mealPlanPricesRepository,_guestRepository);
+      _booking = booking;
     }
 
 
@@ -77,10 +62,10 @@ namespace DiversHotel.Controllers
 
 
       //get No Of Needed Rooms
-      int neededRooms = booking.calculateNoOfRooms(bookViewModel.NoOfAdults, bookViewModel.NoOfChildren);
+      int neededRooms = _booking.calculateNoOfRooms(bookViewModel.NoOfAdults, bookViewModel.NoOfChildren);
 
       //get free Rooms
-      List<Room> rooms = await booking.getFreeRooms(bookViewModel.RoomTypeSelected, bookViewModel.CheckIn,
+      List<Room> rooms = await _booking.getFreeRooms(bookViewModel.RoomTypeSelected, bookViewModel.CheckIn,
         bookViewModel.CheckOut, cancellationToken);
 
       if (rooms.Count < neededRooms)
@@ -91,12 +76,12 @@ namespace DiversHotel.Controllers
       }
 
       //calculate Meal Cost
-      int MealCost = booking.calculateMealPrice(bookViewModel.MealTypeSelected, bookViewModel.CheckIn,
+      int MealCost = _booking.calculateMealPrice(bookViewModel.MealTypeSelected, bookViewModel.CheckIn,
         bookViewModel.CheckOut, bookViewModel.NoOfAdults + bookViewModel.NoOfChildren);
 
 
       //calculate RoomCost
-      int RoomCost = booking.calculateRoomPrice(bookViewModel.RoomTypeSelected, bookViewModel.CheckIn,
+      int RoomCost = _booking.calculateRoomPrice(bookViewModel.RoomTypeSelected, bookViewModel.CheckIn,
         bookViewModel.CheckOut, neededRooms);
 
       //calculate Total cost
@@ -138,7 +123,7 @@ namespace DiversHotel.Controllers
     [HttpPost]
     public async Task<IActionResult> PostReservation(ReservationViewModel reservationViewModel,DateTime CheckIn,DateTime CheckOut,CancellationToken cancellationToken)
     {
-      Reservation reservation = await booking.Reserve(reservationViewModel.Name, reservationViewModel.Email,
+      Reservation reservation = await _booking.Reserve(reservationViewModel.Name, reservationViewModel.Email,
         reservationViewModel.Country,
         reservationViewModel.NoOfRooms, reservationViewModel.RoomType, reservationViewModel.MealType, 
         reservationViewModel.CheckIn, reservationViewModel.CheckOut, reservationViewModel.TotalCost, cancellationToken);
