@@ -15,8 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="152d0a09-56db-49b1-9bbf-733fc0aea939" name="Default Changelist" comment="add migrations">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DiversHotel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Controllers/BookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Controllers/BookController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiversHotel/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DiversHotel/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +25,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/52A6E9AA-74AC-4C70-9FA9-63A6CCE87EDF/81/10daf653/RelationalEntityTypeBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/5f/0841725a/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0FC7B209-38E9-45C1-A271-8C946768ED63/2/MvcViewFeaturesMvcCoreBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/540DD079-B3E2-4F01-ADE1-77755B475876/3/MvcDataAnnotationsMvcCoreBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/C/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4CE0AA9B-A42A-4B23-A363-0673DCF7659C/1/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3A7E7B02-18DE-4A37-8EA8-385422CEC53E/13/MvcCoreMvcCoreBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B94C94DA-E358-4AC6-BCD8-48D691487467/1F/HostingLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/185/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/0/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/0/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/449DF009-86B2-4423-AEC7-304AE7AB5744/1/MvcApiExplorerMvcCoreBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/52A6E9AA-74AC-4C70-9FA9-63A6CCE87EDF/81/10daf653/RelationalEntityTypeBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C80B499D-ADA7-49E0-A8EE-7A9B1744160B/5f/0841725a/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F9D19159-B4E7-4B8B-9ACD-35C4A14250E3/8/Queryable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A7C6347E-A8F9-45D7-A228-BD5ADE08219C/1/MvcCorsMvcCoreBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,6 +147,9 @@
       <workItem from="1618123817820" duration="715000" />
       <workItem from="1618388985594" duration="233000" />
       <workItem from="1618389638942" duration="1079000" />
+      <workItem from="1618960395762" duration="704000" />
+      <workItem from="1618962260009" duration="325000" />
+      <workItem from="1620221511666" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1617794087261</created>
